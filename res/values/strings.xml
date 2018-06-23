@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMC</string>
+    <string name="action_settings">Settings</string>
+    <string name="bienvenida">Bienvenido a la calculadora de Índice de Masa Corporal</string>
+	<string name="que">Qué es el IMC</string>
+	<string name="calculo">Calcular su IMC</string>
+	<string name="salir">Salir</string>
+	<string name="info">\tEl índice de masa corporal es una parámetro que se utiliza de 
+	    manera extensa para evaluar el estado nutricional de una persona. Es una medida 
+	    de asociación entre el peso y la talla de un individuo.\n
+	    Se calcula a partir de la siguiente fórmula:\n\n
+	    \t\t\tIMC=peso/altura²\n\n
+	    \tSe sabe que en adultos el IMC normal o saludable se encuentra entre 18 y 25, 
+	    sin embargo, estos valores de normalidad varian según la edad.
+	    </string>
+	<string name="valores">
+	    Edad\t\t\tIMC\n
+	    19-24\t\t19-24\n
+	    25-34\t\t20-25\n
+	    35-44\t\t21-26\n
+	    45-54\t\t22-27\n
+	    55-64\t\t23-28\n
+	    +65\t\t\t24-29</string>
+	<string name="instrucciones">Inserte los datos que se solicitan a continuación para calcular 
+	    su Índice de Masa Corporal</string>
+	<string name="edad">Edad: </string>
+	<string name="anyos"> años</string>
+	<string name="peso">Peso: </string>
+	<string name="kg"> kilogramos</string>
+	<string name="altura">Altura: </string>
+	<string name="cm"> centímetros</string>
+	<string name="calculando">Esta calculando</string>
+	<string name="error">Debes rellenar todos los campos</string>
+	<string name="importante">Importante</string>
+	<string name="mensaje">Los resultados sólo son fiables para edad superior o igual a 19 años</string>
+	<string name="resultado">Su Índice de masa corporal es: </string>
+	<string name="normal">, y está dentro de los límites normales</string>
+	<string name="infra">, está por debajo de los límites normales. Necesita ganar peso</string>
+	<string name="sobre">, está por encima de los límites normales. Necesita perder peso</string>
+	<string name="recomendaciones">Recomendaciones</string>
+	<string name="dieta">Dietas hipocalóricas</string>
+	</resources>

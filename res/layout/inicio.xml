@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"    
+    android:padding="30dip"
+    tools:context=".Inicio" >
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dip"
+        android:text="@string/bienvenida" />
+
+    <Button
+        android:id="@+id/QueEs"
+        style="@style/Texto_Botones"
+        android:onClick="lanzarInfo"
+        android:text="@string/que" />
+
+    <Button
+        android:id="@+id/imc"
+        style="@style/Texto_Botones"       
+        android:onClick="meterDatos"
+        android:text="@string/calculo" />
+
+    <Button
+        android:id="@+id/salir"
+        style="@style/Texto_Botones"       
+        android:text="@string/salir" />
+
+</LinearLayout>
